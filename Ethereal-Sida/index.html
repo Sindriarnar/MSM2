@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSM Ethereals</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="#" id="favicon">
+    <script src="icon.js" defer></script>
+</head>
+<body>
+    <input type="checkbox" id="chattoggle">
+    <label class="chatboxbutton" for="chattoggle"><b><span class="icon-bubbles4"></span></b></label>
+    <section class="chatbox">
+        <form method="get" action="takk.html" class="sendmail">
+        <fieldset>
+            <legend><h6>Spjallbox</h6></legend>
+            <p>
+            <label>Nafn:</label><br>
+            <input placeholder="Name" type="text" name="first_name">
+            </p>
+            <p>
+            <label>Tölvupóstur:</label><br>
+            <input placeholder="Email" type="email" name="email" required="">
+            </p>
+            <p>
+            <label>Skilaboð:</label><br>
+            <textarea placeholder="Message" rows="5" required></textarea>
+            </p>
+            <p><input type="submit"></p>
+        </fieldset>
+        </form>
+    </section>
+
+    <input type="checkbox" id="contesttoggle">
+    <label class="contestboxbutton" for="contesttoggle"><b><span class="icon-trophy"></span></b></label>
+    <section class="contestbox">
+        <div class="forced-col-2">
+        <section class="center">
+            <h2>MSM Costume Contest</h2>
+            <p>This is not a real costume contest held by Big Blue Bubble, and is only here for my school project.</p>
+            <p>All submissions from all days will be put together and then judged and a winner will be selected.</p>
+        </section>
+        <section>
+            <table class="schedule">
+                <caption>Schedule</caption>
+                <thead>
+                    <tr>
+                        <th><span class="icon-earth"></span> WHERE</th>
+                        <th><span class="icon-calendar"></span> WHEN</th>
+                        <th><span class="icon-phone"></span> ORDER</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td data-label="WHERE">Plant Island</td>
+                    <td data-label="WHEN">09. 4. 2012. kl. 12:00.</td>
+                    <td data-label="ORDER"><a href="#Login"><button class="contest-register">REGISTER</button></a></td>
+                </tr>
+                <tr>
+                    <td data-label="WHERE">Cold Island</td> 
+                    <td data-label="WHEN">09. 04. 2012. kl. 12:00.</td>
+                    <td data-label="ORDER"><a href="#Login"><button class="contest-register">REGISTER</button></a></td>
+                </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="3" class="center">Fótur</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        </div>
+    </section>
+
+    <div id="Login" class="overlay">
+        <div class="popup">
+            <a class="close" href="#">&times;</a>
+            <section>
+                <span id="form"></span>
+                <p><em>This is not a real form and does not submit or save any information.</em></p>
+                <fieldset>
+                  <form method="get" action="takk.html">
+                    <section class="forced-col-2">
+                    <p>
+                        <label>First name <span class="icon-profile"></span></label><br>
+                        <input type="text" name="first_name">
+                    </p>
+                    <p>
+                        <label>Last name <span class="icon-profile"></span></label><br>
+                        <input type="text" name="last_name">
+                    </p>
+                    </section>
+                    <section class="forced-col-2">
+                    <p>
+                        <label>Email <span class="icon-envelop"></span></label><br>
+                        <input type="email" name="email" required="">
+                    </p>
+                    <p>
+                        <label>Phone <span class="icon-phone"></span></label><br>
+                        <input type="tel" name="phone"
+                          placeholder="7 Digits Only"
+                          pattern="\d{3}(?:[\-\s]?)\d{4}">
+                    </p>
+                    </section>
+                    <section class="forced-col-2">
+                    <p>
+                        <label>Country <span class="icon-earth"></span></label><br>
+                        <select>
+                            <option>China</option>
+                            <option>India</option>
+                            <option>United States</option>
+                            <option>Indonesia</option>
+                            <option>Brazil</option>
+                            <option>Iceland</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="checkbox" value="terms">
+                            I agree to the <a>terms and conditions</a>
+                        </label>
+                    </p>
+                    </section>
+                    <p>
+                        <button type="submit">Sign up</button>
+                        <button type="reset">Reset form</button>
+                        <button disabled="disabled">Disabled</button>
+                    </p>
+                  </form>
+                </fieldset>
+              </section>
+        </div>
+    </div>
+
+    <nav class="topnav">
+        <input type="checkbox" id="toggle">
+        <label class="menubutton" for="toggle">&#9776;</label>
+        <section class="topmenu">
+            <a href="../heimasida.html"><span class="icon-home"></span> Home Page</a>
+            <a href="#origins">Ethereal Origins</a>
+            <a href="#sin&dou">Singles & Doubles</a>
+            <a href="#workshop">The Workshop</a>
+            <a href="#tri&qua">Triples & Quads</a>
+            <a href="#quint">The Quint</a>
+            <div class="socialbutts">
+                <a href="https://github.com/Sindriarnar"><span class="icon-github"></span></a>
+                <a href="https://www.instagram.com/sindricoo0205/"><span class="icon-instagram"></span></a>
+            </div>
+        </section>
+    </nav>
+    <header class="center superlarge">
+        <img class="slogo animate_backInDown" src="images/Slogo.svg">
+        <h5 class="animate_fadeInLeftBig">My Singing Monsters</h5>
+        <h4 class="ethereal-text-large animate_ethereal-title">The Ethereals</h4>
+    </header>
+
+    <main class="container">
+        <div id="origins" style="height: 1rem;"></div>
+        <header class="center ethereal-origins">
+            <img class="title" src="images/Ethereal_Island_Wordmark.png" alt="Ethereal Origins">
+            <!--<h1><span class="ethereal-text-large">Ethereal</span> Origins</h1> -->
+
+            <iframe class="gluggi" src="https://www.youtube.com/embed/0iTdKGL3V6s?si=QXby-uKVtQiZJbZx" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer;
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+            </iframe>
+            <br><br><br>
+            <p>The <span class="ethereal-text">Ethereal</span> Class can be split into two groups. Single and Double Element Ethereals are <b>Stable Ethereals</b> that can be bred and are found on <a href="https://mysingingmonsters.fandom.com/wiki/Ethereal_Island">Ethereal Island</a>. Triple, Quad, and Quint Element Ethereals are <b><span class="animate_glitchXY">Unstable</span> Ethereals</b> that are <i>unbreedable</i>, and must be synthesized and be found on <a href="https://mysingingmonsters.fandom.com/wiki/Ethereal_Workshop">Ethereal Workshop</a>.</p>
+
+            <h3>There are five Ethereal Elements:</h5>
+            
+            <div class="col-5-myndir">
+            <section>
+                <h3>Plasma</h3>
+                <img class="symbol-img" src="images/Ethereal-01-Plasma-Symbol.png" alt="Plasma Symbol">
+            </section>
+            <section>
+                <h3>Shadow</h3>
+                <img class="symbol-img" src="images/Ethereal-02-Shadow-Symbol.png" alt="Shadow Symbol">
+            </section>
+            <section>
+                <h3>Mech</h3>
+                <img class="symbol-img" src="images/Ethereal-03-Mech-Symbol.png" alt="Mech Symbol">
+            </section>
+            <section>
+                <h3>Crystal</h3>
+                <img class="symbol-img" src="images/Ethereal-04-Crystal-Symbol.png" alt="Crystal Symbol">
+            </section>
+            <section>
+                <h3>Poison</h3>
+                <img class="symbol-img" src="images/Ethereal-05-Poison-Symbol.png" alt="Poison Symbol">
+            </section>
+            </div>
+            <br>
+            <blockquote><span class="quotecommas">“</span>If <span class="ethereal-text">Ethereal Island</span> seems <b>otherworldly</b> to you, you're spot on. Located in a <a href="https://mysingingmonsters.fandom.com/wiki/Monster_World#Pocket_Dimension">Pocket Dimension</a> of the <a href="https://mysingingmonsters.fandom.com/wiki/World_Tree">multiverse</a>, it is home to Monsters unlike any that have been seen or heard before. Oozing with <i>mysterious substances</i> and orbited by objects of <i>ominous origin</i>, you won't be able to resist the sublime wonder of its song!<span class="quotecommas">”</span></blockquote>
+            <br><br>
+            <p><b>Ethereal Island</b> is an Island in <a href="https://mysingingmonsters.fandom.com/wiki/My_Singing_Monsters_(game)">My Singing Monsters</a> that is primarily and almost fully inhabited by all Single and Double Element <span class="ethereal-text">Ethereal Monsters</span>.</p>
+            <p>Ethereal Island is accessible at <b>Level 4</b> without any purchase and was first released on <i>September 4th, 2013</i>. However, Monsters do not unlock on Ethereal Island until <b>Level 9</b>.</p>
+            <p>Ethereal Island can hold the Single Element Ethereal Monsters found on the <a href="https://mysingingmonsters.fandom.com/wiki/Natural_Islands">Natural Islands</a> after they are fed to <b>level 15</b> and Teleported. <a href="https://mysingingmonsters.fandom.com/wiki/Teleport">Teleporting</a> will reset their levels back to one on Ethereal Island, and turn the Monsters into eggs again. Teleportation is impossible to reverse, so the Monsters will stay permanently on Ethereal Island.</p>
+        </header>
+        <div id="sin&dou" style="height: 1rem;"></div>
+        <header class="center ethereal-origins">
+            <h1><span class="ethereal-text-large">Singles & Doubles</span></h1>
+
+            <section class="center col-2">
+                <a class="sindou-button" href="#singles">Singles</a>
+                <a class="sindou-button" href="#doubles">Doubles</a>
+            </section>
+            <br><br>
+            <div id="singles" style="height: 1rem;"></div>
+            <h1><span class="ethereal-island-text-large">Singles</span></h1>
+            <div class="grid-21">
+            <section class="A margin-center">
+                <h2>Ghazt</h2>
+                <blockquote class="monster"><span class="quotecommas">“</span>
+                The extraordinary Ghazt only manifests itself when conditions are absolutely perfect. Imbued with the Ethereal power of Plasma, its sleek frame and ability to become intangible are ideal for slipping in and out of places unnoticed. However, these traits also make it vulnerable to accidental interdimensional travel. It plays well with the other Monsters, but just like a cat, it sometimes prefers to be alone... or in the company of others of its kind.
+                <span class="quotecommas">”</span>
+                </blockquote>
+                <h3><b>- Monster Bio</b></h3>
+                <div class="col-2-audio">
+                    <div>
+                    <h3 class="audio-title">Ghazt <b class="plant-text">Plant Island</b></h3>
+                    <audio controls>
+                        <source src="audio/Ghazt-Plant-Island.mp3" type="audio/mpeg">
+                    </audio> 
+                    </div>
+                    <div>
+                        <h3 class="audio-title">Ghazt <b class="ethereal-text">Ethereal Island</b></h3>
+                        <audio controls>
+                            <source src="audio/Ghazt-Ethereal-Island.mp3" type="audio/mpeg">
+                        </audio> 
+                    </div>
+                </div>
+            </section>
+            <section class="B margin-center">
+                <picture class="ghazt-container">
+                    <img src="images/Ghazt.png" alt="Ghazt" class="width-340">
+                    <hr>
+                    <h2>Element(s)</h2>
+                    <img class="small-symbol-img" src="images/Ethereal-01-Plasma-Symbol.png" alt="Plasma">
+                </picture>
+            </section>
+            </div>
+            <br><br>
+            <div class="grid-12">
+            <section class="C margin-center">
+                <picture class="grumpyre-container">
+                    <img class="invert width-450" src="images/Grumpyre.png" alt="Grumpyre">
+                    <hr>
+                    <h2>Element(s)</h2>
+                    <img class="small-symbol-img" src="images/Ethereal-02-Shadow-Symbol.png" alt="Shadow">
+                </picture>
+            </section>
+            <section class="D margin-center">
+                <h2>Grumpyre</h2>
+                <blockquote class="monster"><span class="quotecommas">“</span>
+                Another of the mysterious Ethereals, you can never fully tell what kind of mood the Grumpyre is in. Thanks to its shifting eyes and mouth as it gurgles forth its song, it might appear sad when really it's happy, or afraid when it's actually having a blast. This makes sense, since it embodies the essence of Shadow - always a bit obscured, and able to unnerve even the most intrepid of Monsters.
+                <span class="quotecommas">”</span>
+                </blockquote>
+                <h3><b>- Monster Bio</b></h3>
+                <div class="col-2-audio">
+                    <div>
+                    <h3 class="audio-title">Grumpyre <b class="cold-text">Cold Island</b></h3>
+                    <audio controls>
+                        <source src="audio/Grumpyre-Cold-Island.mp3" type="audio/mpeg">
+                    </audio> 
+                    </div>
+                    <div>
+                        <h3 class="audio-title">Grumpyre <b class="ethereal-text">Ethereal Island</b></h3>
+                        <audio controls>
+                            <source src="audio/Grumpyre-Ethereal-Island.mp3" type="audio/mpeg">
+                        </audio> 
+                    </div>
+                </div>
+            </section>
+            </div>
+            <br><br>
+            <div class="grid-21">
+                <section class="A margin-center">
+                    <h2>Reebro</h2>
+                    <blockquote class="monster"><span class="quotecommas">“</span>
+                    Of all the creatures known in the multiverse, the Reebro is right up there with the strangest. Little more than an oversized brain to begin with, this Ethereal beast develops a mechanical body using its instinctual technological know-how. The Reebro, or simply 'Bro' as it is affectionately called by its fellow Monsters, is a laid-back character who lives for fun and has the scoop on all the latest trends. It's always willing to assist others with their 'Mech'-nical difficulties - even if its go-to solution is to 'turn it off and then turn it on again.
+                    <span class="quotecommas">”</span>
+                    </blockquote>
+                    <h3><b>- Monster Bio</b></h3>
+                    <div class="col-2-audio">
+                        <div>
+                        <h3 class="audio-title">Reebro <b class="air-text">Air Island</b></h3>
+                        <audio controls>
+                            <source src="audio/Reebro-Air-Island.mp3" type="audio/mpeg">
+                        </audio> 
+                        </div>
+                        <div>
+                            <h3 class="audio-title">Reebro <b class="ethereal-text">Ethereal Island</b></h3>
+                            <audio controls>
+                                <source src="audio/Reebro-Ethereal-Island.mp3" type="audio/mpeg">
+                            </audio> 
+                        </div>
+                    </div>
+                </section>
+                <section class="B margin-center">
+                    <picture class="reebro-container">
+                        <img class="invert width-300" src="images/Reebro.png" alt="Reebro">
+                        <hr>
+                        <h2>Element(s)</h2>
+                        <img class="small-symbol-img" src="images/Ethereal-03-Mech-Symbol.png" alt="Mech">
+                    </picture>
+                </section>
+                </div>
+            <br><br>
+            <div class="grid-12">
+                <section class="C margin-center">
+                    <picture class="jeeode-container">
+                        <img class="invert width-360" src="images/Jeeode.png" alt="Jeeode">
+                        <hr>
+                        <h2>Element(s)</h2>
+                        <img class="small-symbol-img" src="images/Ethereal-04-Crystal-Symbol.png" alt="Crystal">
+                    </picture>
+                </section>
+                <section class="D margin-center">
+                    <h2>Jeeode</h2>
+                    <blockquote class="monster"><span class="quotecommas">“</span>
+                    The wise Jeeode is renowned for its ability to see all sides of a situation. Harnessing the Ethereal power of Crystal, it pictures each scenario as sitting in the center of a giant prism, looking at each facet one at a time. Then, it somehow creates a solution that leaves everyone smiling. Because of this refined perspective, Jeeodes are first-rate instrumentalists, never missing a note.
+                    <span class="quotecommas">”</span>
+                    </blockquote>
+                    <h3><b>- Monster Bio</b></h3>
+                    <div class="col-2-audio">
+                        <div>
+                        <h3 class="audio-title">Jeeode <b class="water-text">Water Island</b></h3>
+                        <audio controls>
+                            <source src="audio/Jeeode-Water-Island.mp3" type="audio/mpeg">
+                        </audio> 
+                        </div>
+                        <div>
+                            <h3 class="audio-title">Jeeode <b class="ethereal-text">Ethereal Island</b></h3>
+                            <audio controls>
+                                <source src="audio/Jeeode-Ethereal-Island.mp3" type="audio/mpeg">
+                            </audio> 
+                        </div>
+                    </div>
+                </section>
+                </div>
+            <br><br>
+            <div class="grid-21">
+                <section class="A margin-center">
+                    <h2>Humbug</h2>
+                    <blockquote class="monster"><span class="quotecommas">“</span>
+                    The Humbug is the incarnation of the misunderstood Ethereal element of Poison. When it buzzes its wings fast enough, it can open up and glide on supersonic dimensional highways from universe to universe. Humbugs naturally enjoy warm weather, and are drawn to humid places where the hum produced by their wings has the finest tone.
+                    <span class="quotecommas">”</span>
+                    </blockquote>
+                    <h3><b>- Monster Bio</b></h3>
+                    <div class="col-2-audio">
+                        <div>
+                        <h3 class="audio-title">Humbug <b class="earth-text">Earth Island</b></h3>
+                        <audio controls>
+                            <source src="audio/Humbug-Earth-Island.mp3" type="audio/mpeg">
+                        </audio> 
+                        </div>
+                        <div>
+                            <h3 class="audio-title">Humbug <b class="ethereal-text">Ethereal Island</b></h3>
+                            <audio controls>
+                                <source src="audio/Humbug-Ethereal-Island.mp3" type="audio/mpeg">
+                            </audio> 
+                        </div>
+                    </div>
+                </section>
+                <section class="B margin-center">
+                    <picture class="humbug-container">
+                        <img src="images/Humbug.png" alt="Humbug" class="width-370">
+                        <hr>
+                        <h2>Element(s)</h2>
+                        <img class="small-symbol-img" src="images/Ethereal-05-Poison-Symbol.png" alt="Poison">
+                    </picture>
+                </section>
+                </div>
+                <hr class="default-hr">
+
+
+
+
+                <div id="doubles" style="height: 1.2rem;"></div>
+                <h1><span class="ethereal-island-text-large">Doubles</span></h1>
+                <div class="grid-12">
+                    <section class="C margin-center">
+                        <picture class="whisp-container">
+                            <img src="images/Whisp.png" alt="Whisp" class="width-280">
+                            <hr>
+                            <h2>Element(s)</h2>
+                                <section>
+                                    <img class="small-symbol-img" src="images/Ethereal-01-Plasma-Symbol.png" alt="Plasma">
+                                    <img class="small-symbol-img" src="images/Ethereal-02-Shadow-Symbol.png" alt="Shadow">
+                                </section>
+                        </picture>
+                    </section>
+                    <section class="D margin-center">
+                        <h2>Whisp</h2>
+                        <blockquote class="monster"><span class="quotecommas">“</span>
+                        Even though it may look like the Whisp doesn't get out too often, nothing could be further from the truth. It loves to swoop, glide and careen through the phantasmagorical terrain of Ethereal Island, entertaining other Monsters with its mellifluous voice and charming conversational skills. Whisps don't cast reflections in mirrors, which makes it difficult to preen their stylish hairdos.
+                        <span class="quotecommas">”</span>
+                        </blockquote>
+                        <h3><b>- Monster Bio</b></h3>
+                        <div class="col-1">
+                            <div>
+                                <h3 class="audio-title-2">Whisp <b class="ethereal-text">Ethereal Island</b></h3>
+                                <audio class="wide-audio" controls>
+                                    <source src="audio/Whisp-Ethereal-Island.mp3" type="audio/mpeg">
+                                </audio> 
+                            </div>
+                        </div>
+                    </section>
+                    </div>
+                <br><br>
+                <div class="grid-21">
+                    <section class="A margin-center">
+                        <h2>Nebulob</h2>
+                        <blockquote class="monster"><span class="quotecommas">“</span>
+                        The little-understood Nebulob is one of the few Monsters born without a predisposition to music. Instead, it is something that the Nebulob works on all its life, constantly researching new and exciting genres to learn from and experiment with. The elaborate exo-suit it dons aids in the creation of its own special style, a dulcet mix of machine and spirit. If pressed, the Nebulob will confess its favorite musical genre as 'Rhythm & Ooze.'
+                        <span class="quotecommas">”</span>
+                        </blockquote>
+                        <h3><b>- Monster Bio</b></h3>
+                        <div class="col-1">
+                            <div>
+                                <h3 class="audio-title-2">Nebulob <b class="ethereal-text">Ethereal Island</b></h3>
+                                <audio class="wide-audio" controls>
+                                    <source src="audio/Nebulob-Ethereal-Island.mp3" type="audio/mpeg">
+                                </audio> 
+                            </div>
+                        </div>
+                    </section>
+                    <section class="B margin-center">
+                        <picture class="nebulob-container">
+                            <img class="invert width-280" src="images/Nebulob.png" alt="Nebulob">
+                            <hr>
+                            <h2>Element(s)</h2>
+                                <section>
+                                    <img class="small-symbol-img" src="images/Ethereal-01-Plasma-Symbol.png" alt="Plasma">
+                                    <img class="small-symbol-img" src="images/Ethereal-03-Mech-Symbol.png" alt="Mech">
+                                </section>
+                        </picture>
+                    </section>
+                    </div>
+                <br><br>
+                <div class="grid-12">
+                    <section class="C margin-center">
+                        <picture class="sox-container">
+                            <img class="invert width-300" src="images/Sox.png" alt="Sox">
+                            <hr>
+                            <h2>Element(s)</h2>
+                                <section>
+                                    <img class="small-symbol-img" src="images/Ethereal-01-Plasma-Symbol.png" alt="Plasma">
+                                    <img class="small-symbol-img" src="images/Ethereal-04-Crystal-Symbol.png" alt="Crystal">
+                                </section>
+                        </picture>
+                    </section>
+                    <section class="D margin-center">
+                        <h2>Sox</h2>
+                        <blockquote class="monster"><span class="quotecommas">“</span>
+                        According to monster lore, the ancestors of the Sox were self-conscious of the gaping holes in their tails. Over time, it was discovered that eating precious stones spurred the growth of peculiar metal pads over the holes. Quite by accident, Soxes learned they could use them, along with their tube-like snouts, to create smooth musical riffs! The age-old mystery of 'What does the Sox say' has now been solved.
+                        <span class="quotecommas">”</span>
+                        </blockquote>
+                        <h3><b>- Monster Bio</b></h3>
+                        <div class="col-1">
+                            <div>
+                                <h3 class="audio-title-2">Sox <b class="ethereal-text">Ethereal Island</b></h3>
+                                <audio class="wide-audio" controls>
+                                    <source src="audio/Sox-Ethereal-Island.mp3" type="audio/mpeg">
+                                </audio> 
+                            </div>
+                        </div>
+                    </section>
+                    </div>
+                <br><br>
+                <div class="grid-21">
+                    <section class="A margin-center">
+                        <h2>Jellbilly</h2>
+                        <blockquote class="monster"><span class="quotecommas">“</span>
+                        This rootin'-tootin' Ethereal is something of a legend to the scavenging Cybops of the neighboring dimension. Their cycloptic vision and distinctive vocal twang are modeled after the Jellbilly's own. Even though they may never meet face-to-face, Jellbillies generously return every piece of Cybop fan mail they receive, taking advantage of their many tentacles to write several replies at once.
+                        <span class="quotecommas">”</span>
+                        </blockquote>
+                        <h3><b>- Monster Bio</b></h3>
+                        <div class="col-1">
+                            <div>
+                                <h3 class="audio-title-2">Jellbilly <b class="ethereal-text">Ethereal Island</b></h3>
+                                <audio class="wide-audio" controls>
+                                    <source src="audio/Jellbilly-Ethereal-Island.mp3" type="audio/mpeg">
+                                </audio> 
+                            </div>
+                        </div>
+                    </section>
+                    <section class="B margin-center">
+                        <picture class="jellbilly-container">
+                            <img class="invert width-250" src="images/Jellbilly.png" alt="Jellbilly">
+                            <hr>
+                            <h2>Element(s)</h2>
+                                <section>
+                                    <img class="small-symbol-img" src="images/Ethereal-01-Plasma-Symbol.png" alt="Plasma">
+                                    <img class="small-symbol-img" src="images/Ethereal-05-Poison-Symbol.png" alt="Poison">
+                                </section>
+                        </picture>
+                    </section>
+                    </div>
+                <br><br>
+                <div class="grid-12">
+                    <section class="C margin-center">
+                        <picture class="arackulele-container">
+                            <img src="images/Arackulele.png" alt="Arackulele" class="width-370">
+                            <hr>
+                            <h2>Element(s)</h2>
+                                <section>
+                                    <img class="small-symbol-img" src="images/Ethereal-02-Shadow-Symbol.png" alt="Shadow">
+                                    <img class="small-symbol-img" src="images/Ethereal-03-Mech-Symbol.png" alt="Mech">
+                                </section>
+                        </picture>
+                    </section>
+                    <section class="D margin-center">
+                        <h2>Arackulele</h2>
+                        <blockquote class="monster"><span class="quotecommas">“</span>
+                        Multi-limbed and multi-talented, the Ethereal Monster known as the Arackulele experiences no greater joy than when it's plucking and strumming on its homemade chordophone. Its rousing and inspirational musical stylings are emblematic of its whole attitude towards life: even though we are all just specks in the vastness of the multiverse, when enough Monsters join together in harmony, anything is possible!
+                        <span class="quotecommas">”</span>
+                        </blockquote>
+                        <h3><b>- Monster Bio</b></h3>
+                        <div class="col-1">
+                            <div>
+                                <h3 class="audio-title-2">Arackulele <b class="ethereal-text">Ethereal Island</b></h3>
+                                <audio class="wide-audio" controls>
+                                    <source src="audio/Arackulele-Ethereal-Island.mp3" type="audio/mpeg">
+                                </audio> 
+                            </div>
+                        </div>
+                    </section>
+                    </div>
+                <br><br>
+                <div class="grid-21">
+                    <section class="A margin-center">
+                        <h2>Boodoo</h2>
+                        <blockquote class="monster"><span class="quotecommas">“</span>
+                        Offspring of Shadow and Crystal, Boodoos are contradictory creatures. Its uncanny appearance belies a gentle soul who enjoys home-cooking, collecting vintage dolls and artisanal craft-making. A Boodoo's shakers and ornamental headdress represent only a small portion of its creative pursuits; Monsters far and wide will travel to witness the unveiling of a Boodoo original.
+                        <span class="quotecommas">”</span>
+                        </blockquote>
+                        <h3><b>- Monster Bio</b></h3>
+                        <div class="col-1">
+                            <div>
+                                <h3 class="audio-title-2">Boodoo <b class="ethereal-text">Ethereal Island</b></h3>
+                                <audio class="wide-audio" controls>
+                                    <source src="audio/Boodoo-Ethereal-Island.mp3" type="audio/mpeg">
+                                </audio> 
+                            </div>
+                        </div>
+                    </section>
+                    <section class="B margin-center">
+                        <picture class="boodoo-container">
+                            <img class="invert width-340" src="images/Boodoo.png" alt="Boodoo">
+                            <hr>
+                            <h2>Element(s)</h2>
+                                <section>
+                                    <img class="small-symbol-img" src="images/Ethereal-02-Shadow-Symbol.png" alt="Shadow">
+                                    <img class="small-symbol-img" src="images/Ethereal-04-Crystal-Symbol.png" alt="Crystal">
+                                </section>
+                        </picture>
+                    </section>
+                    </div>
+                <br><br>
+                <div class="grid-12">
+                    <section class="C margin-center">
+                        <picture class="kazilleon-container">
+                            <img src="images/Kazilleon.png" alt="Kazilleon" class="width-300">
+                            <hr>
+                            <h2>Element(s)</h2>
+                                <section>
+                                    <img class="small-symbol-img" src="images/Ethereal-02-Shadow-Symbol.png" alt="Shadow">
+                                    <img class="small-symbol-img" src="images/Ethereal-05-Poison-Symbol.png" alt="Poison">
+                                </section>
+                        </picture>
+                    </section>
+                    <section class="D margin-center">
+                        <h2>Kazilleon</h2>
+                        <blockquote class="monster"><span class="quotecommas">“</span>
+                        Kazilleons aren't the greatest-smelling Monsters. For one, the toxic gas they spew when they're singing has been known to singe fur and upset appetites. To boot, the noxious fumes emanating from their color-shifting skin is sometimes harvested to help strip paint off of old buildings. The thing is, they're so friendly, everyone wants them around anyhow.
+                        <span class="quotecommas">”</span>
+                        </blockquote>
+                        <h3><b>- Monster Bio</b></h3>
+                        <div class="col-1">
+                            <div>
+                                <h3 class="audio-title-2">Kazilleon <b class="ethereal-text">Ethereal Island</b></h3>
+                                <audio class="wide-audio" controls>
+                                    <source src="audio/Kazilleon-Ethereal-Island.mp3" type="audio/mpeg">
+                                </audio> 
+                            </div>
+                        </div>
+                    </section>
+                    </div>
+                <br><br>
+                <div class="grid-21">
+                    <section class="A margin-center">
+                        <h2>Bellowfish</h2>
+                        <blockquote class="monster"><span class="quotecommas">“</span>
+                        Indigenous to the aquaslime pools of Ethereal Island, this blubberous beast always wants to be smack dab in the middle of the action. So that they never miss out on that action, Bellowfish cooperate to create each other's crystal-powered mechanized suits, which let them leave the water and join in the musical menagerie. That said, they're not particularly known for their punctuality; if there's a latecomer to a monster party, it's safe to assume a Bellowfish is the one who knocks.
+                        <span class="quotecommas">”</span>
+                        </blockquote>
+                        <h3><b>- Monster Bio</b></h3>
+                        <div class="col-1">
+                            <div>
+                                <h3 class="audio-title-2">Bellowfish <b class="ethereal-text">Ethereal Island</b></h3>
+                                <audio class="wide-audio" controls>
+                                    <source src="audio/Bellowfish-Ethereal-Island.mp3" type="audio/mpeg">
+                                </audio> 
+                            </div>
+                        </div>
+                    </section>
+                    <section class="B margin-center">
+                        <picture class="bellowfish-container">
+                            <img src="images/Bellowfish.png" alt="Bellowfish" class="width-370">
+                            <hr>
+                            <h2>Element(s)</h2>
+                                <section>
+                                    <img class="small-symbol-img" src="images/Ethereal-03-Mech-Symbol.png" alt="Mech">
+                                    <img class="small-symbol-img" src="images/Ethereal-04-Crystal-Symbol.png" alt="Crystal">
+                                </section>
+                        </picture>
+                    </section>
+                    </div>
+                <br><br>
+                <div class="grid-12">
+                    <section class="C margin-center">
+                        <picture class="dragong-container">
+                            <img src="images/Dragong.png" alt="Dragong" class="width-420">
+                            <hr>
+                            <h2>Element(s)</h2>
+                                <section>
+                                    <img class="small-symbol-img" src="images/Ethereal-03-Mech-Symbol.png" alt="Mech">
+                                    <img class="small-symbol-img" src="images/Ethereal-05-Poison-Symbol.png" alt="Poison">
+                                </section>
+                        </picture>
+                    </section>
+                    <section class="D margin-center">
+                        <h2>Dragong</h2>
+                        <blockquote class="monster"><span class="quotecommas">“</span>
+                        The Dragong's lithe body belies incredible strength and resilience, which it uses to absorb the vibration of its tail- and feet-plates. In addition to the cymballike clashing they create, these plates allow the Dragong to skim the water's surface, and unsurprisingly, to prepare delicious dishes for its Ethereal cohorts.
+                        <span class="quotecommas">”</span>
+                        </blockquote>
+                        <h3><b>- Monster Bio</b></h3>
+                        <div class="col-1">
+                            <div>
+                                <h3 class="audio-title-2">Dragong <b class="ethereal-text">Ethereal Island</b></h3>
+                                <audio class="wide-audio" controls>
+                                    <source src="audio/Dragong-Ethereal-Island.mp3" type="audio/mpeg">
+                                </audio> 
+                            </div>
+                        </div>
+                    </section>
+                    </div>
+                <br><br>
+                <div class="grid-21">
+                    <section class="A margin-center">
+                        <h2>Fung Pray</h2>
+                        <blockquote class="monster"><span class="quotecommas">“</span>
+                        The chimeric Fung Pray strives to achieve complete balance in all aspects of life, according to transcendental teachings passed down from generation to generation. Even though tranquility and precision are held in highest esteem, the occasional burst of unbridled exuberance is permitted. Bystanders can identify such a display by the appearance of glowing gills under the Fung Pray's headcap.
+                        <span class="quotecommas">”</span>
+                        </blockquote>
+                        <h3><b>- Monster Bio</b></h3>
+                        <div class="col-1">
+                            <div>
+                                <h3 class="audio-title-2">Fung Pray <b class="ethereal-text">Ethereal Island</b></h3>
+                                <audio class="wide-audio" controls>
+                                    <source src="audio/Fung-Pray-Ethereal-Island.mp3" type="audio/mpeg">
+                                </audio> 
+                            </div>
+                        </div>
+                    </section>
+                    <section class="B margin-center">
+                        <picture class="fung-pray-container">
+                            <img class="invert width-320" src="images/Fung-Pray.png" alt="Fung Pray">
+                            <hr>
+                            <h2>Element(s)</h2>
+                                <section>
+                                    <img class="small-symbol-img" src="images/Ethereal-04-Crystal-Symbol.png" alt="Crystal">
+                                    <img class="small-symbol-img" src="images/Ethereal-05-Poison-Symbol.png" alt="Poison">
+                                </section>
+                        </picture>
+                    </section>
+                    </div>
+        </header>
+
+        <div id="workshop" style="height: 1rem;"></div>
+        <header class="center ethereal-workshop">
+            <img class="workshop-title" src="images/Ethereal-Workshop-word.png" alt="Ethereal Workshop">
+            <!--<h1><span class="ethereal-text-large">Ethereal</span> Origins</h1> -->
+            <h1 class="ethereal-text-large">Trailer</h1>
+            <iframe class="gluggi" src="https://www.youtube.com/embed/_QZTGni5ZU8?si=LlPUJSPCk5_1pjX0" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer;
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+            </iframe>
+            <br><br><br>
+            <br>
+            <blockquote><span class="quotecommas">“</span>So this is how the other half lives… literally! For all of recorded Monster history, the <span class="ethereal-text">Ethereal</span> class has been confined to Single- and Double-Elementals… until the establishment of the <span class="ethereal-workshop-text">Workshop</span>. Located inside <a href="https://mysingingmonsters.fandom.com/wiki/Ethereal_Island">Ethereal Island</a> and doubling as the <i> 'brain'</i> of the Colossal Zarroë, it's actually superimposed on the abandoned ruins of <a href="https://mysingingmonsters.fandom.com/wiki/Galvana">another entity's</a> laboratory. Here, Zarroë has achieved the impossible and brought to life <b>Triple-Element Ethereals</b> (and beyond) using the unpredictably powerful <a href="https://mysingingmonsters.fandom.com/wiki/Meebs">Meebs</a> and strange new Structures of its own invention. The Colossal's goal? To create a symphony of synthetic sounds worthy of the name Workshop!<span class="quotecommas">”</span></blockquote>
+            <br><br>
+            <p><span class="ethereal-workshop-text">Ethereal Workshop</span> is an Island in My Singing Monsters that is home to the <span class="ethereal-workshop-text">Meeb</span> critters, Triple-Element, Quad-Element, and the Quint-Element <span class="ethereal-text">Ethereals</span>. It appears to be located inside the head of the Ethereal Island Colossal, and uses new mechanics that require the use of the <a href="https://mysingingmonsters.fandom.com/wiki/Mirror_Islands">Mirror Islands</a> and strange creatures called Meebs. The Island was added in <a href="https://mysingingmonsters.fandom.com/wiki/Version_History#Version_4.1.0">Version 4.1.0</a>, on Wednesday, October 11th, 2023.</p>
+            <br><br>
+            <h1>Meebs</h1>
+            <div class="col-2">
+                <section class="margin-center">
+                    <blockquote>Each player starts off with 10 'neutral' <span class="ethereal-workshop-text">Meebs</span>, which can then be attuned to one of five <span class="ethereal-text">Ethereal</span> elements using the <b>Attunement Structure</b> by selecting the Ethereal element's respective <i>Mirror Natural Island</i>. The amount of time it takes for a Meeb to attune changes through the five Mirror Natural Islands <b>each day</b>, with one Island being 5 hours, the previous and next Island being 10 hours, and the two remaining ones being 20 hours. Several Meebs can then be put into the <i>Synthesizer</i> to create a <span class="ethereal-workshop-text">Triple-Element Ethereal</span>, using a combination of Meebs attuned to the Ethereal elements that the respective Ethereal Monster has.</blockquote>
+                </section>
+                <section class="margin-center">
+                    <div>
+                        <div id="slideset2" class="width-25 height-25">
+                        <section class="slidecenter">
+                            <figure>
+                                <img class="meebheight" src="images/m-default-meeb.png">
+                            </figure>
+                        </section>
+                    
+                        <section class="slidecenter">
+                            <figure>
+                                <img class="invert meebheight" src="images/m-plasma-meeb.png">
+                            </figure>
+                        </section>
+                    
+                        <section>
+                            <figure>
+                                <img class="invert meebheight" src="images/m-shadow-meeb.png">
+                            </figure>
+                        </section>
+                
+                        <section>
+                            <figure>
+                                <img class="meebheight" src="images/m-mech-meeb.png">
+                            </figure>
+                        </section>
+
+                        <section>
+                            <figure>
+                                <img class="invert meebheight" src="images/m-crystal-meeb.png">
+                            </figure>
+                        </section>
+
+                        <section>
+                            <figure>
+                                <img class="meebheight" src="images/m-poison-meeb.png">
+                            </figure>
+                        </section>
+                        </div>
+                    </div>
+                </section>             
+            </div>
+            <div style="height: 4rem;"></div>
+            <div>
+                <h1>Stability</h1>
+                <p>Different Attuned <span class="ethereal-workshop-text">Meebs</span> have different <i>stabilities</i> when placed inside the <b>Synthesizer</b>. The elements scale in their instability in order of their appearances on the <i>Natural Islands</i> (for example, a <b>Plasma Meeb</b> adds the <i>least</i> instability to the Synthesizer, as it is on the <i>first</i> Natural Island. Alternatively, a <b>Poison Meeb</b> adds the <i>most</i> instability, for it is present on the <i>last</i> Natural Island). They are all from the selection of Meebs you put into the Synthesizer.</p>
+                
+                <p>If the combination of Meebs reaches the end of the chart, there will be a sign with an <b>exclamation mark</b> and a <i>loud whistling noise</i> will play.</p>
+
+                <blockquote>The <b>Synthesizer</b> features a chart with a gauge showing the level of <i>instability</i> for combinations of Attuned Meebs. The closer the gauge is to the <i>green</i> side, the more stable the Monster combination will be. The closer it is to the <i>red</i> side, the more <b class="animate_glitchXY">unstable</b> it will be. The more <b class="animate_glitchXY2">unstable</b> a combo gets, the higher the chance of it failing. The meeb instability goes as follows: Plasma (Plasma Element) has an instability of 1, Shadow (Shadow Element) has an instability of 2, Mech (Mech Element) has an instability of 3, Crystal (Crystal Element) has an instability of 4, and Poison (Poison Element) has an instability of 5.</blockquote>
+                <img src="images/Stability.png" class="margin-center">
+                <p>The stability of a combination depends on the <i>multiplicity</i> of the combination of the elements of the meebs. For example, the combination of Plasma, Shadow, and Mech (1 x 2 x 3 = 6) has the same stability as Shadow and Mech on their own (2 x 3 = 6). At the moment, the Synthesizer can handle a <i>maximum stability</i> of <b>120</b>.</p>
+            </div>
+
+            <div style="height: 5rem;"></div>
+            <h1 class="ethereal-text-large">Full Song</h1>
+            <iframe class="gluggi" src="https://www.youtube.com/embed/PWRx2IoVqs8?si=NCUxQYX8BCTYwCw8" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer;
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+            </iframe>
+        </header>
+        <br><br><br>
+
+        <div id="tri&qua" style="height: 1rem;"></div>
+        <header class="center ethereal-workshop">
+            <h1><span class="ethereal-text-large">Triples & Quads</span></h1>
+
+            <section class="center col-2">
+                <a class="triqua-button" href="#triples">Triples</a>
+                <a class="triqua-button" href="#quads">Quads</a>
+            </section>
+            <br><br>
+            <div id="triples" style="height: 1rem;"></div>
+            <h1><span class="ethereal-island-text-large">Triples</span></h1>
+            <div class="grid-12">
+                <section class="C margin-center">
+                    <picture class="yooreek-container">
+                        <img class="invert width-270" src="images/Yooreek.png" alt="Yooreek">
+                        <hr>
+                        <h2>Element(s)</h2>
+                            <section>
+                                <img class="small-symbol-img" src="images/Ethereal-01-Plasma-Symbol.png" alt="Plasma">
+                                <img class="small-symbol-img" src="images/Ethereal-02-Shadow-Symbol.png" alt="Shadow">
+                                <img class="small-symbol-img" src="images/Ethereal-03-Mech-Symbol.png" alt="Mech">
+                            </section>
+                    </picture>
+                </section>
+                <section class="D margin-center">
+                    <h2>Yooreek</h2>
+                    <blockquote class="monster"><span class="quotecommas">“</span>
+                    Yooreek… uh… what's the story behind this Monster? It seems to possess an organic exterior, but the sound it produces definitely evokes something more robotic. Perhaps this trait is 'inherited' from auditory residue from former residents of the Workshop. This Ethereal and Gaddzooks appear to have a lot of genetic programming in common, but the quirks of the attunement and synthesis processes have resulted in markedly different final products. It matters little to these two, who savor each other's company and really 'click' musically.
+                    <span class="quotecommas">”</span>
+                    </blockquote>
+                    <h3><b>- Monster Bio</b></h3>
+                    <div class="col-1">
+                        <div>
+                            <h3 class="audio-title-2">Yooreek <b class="ethereal-workshop-text">Ethereal Workshop</b></h3>
+                            <audio class="wide-audio" controls>
+                                <source src="audio/Yooreek-Ethereal-Workshop.mp3" type="audio/mpeg">
+                            </audio> 
+                        </div>
+                    </div>
+                </section>
+                </div>
+            <br><br>
+            <div class="grid-21">
+                <section class="A margin-center">
+                    <h2>Meebkin</h2>
+                    <blockquote class="monster"><span class="quotecommas">“</span>
+                    The Meebkin gets its name from a greater-than-average affinity for the Meeb critters essential to the specialized processes of the Workshop. Rather than being recruited for attunement, a pair is carefully chosen to perch on either end of a special baton made of woven fibers. Deftly and gymnastically twirling the baton over its head, the Meebkin is able to coax otherworldly groans and gargles out of the mouths of Meebs, but don't worry - the critters aren't uncomfortable. Rather the opposite: the Triple-Element Ethereal is a doting and responsible caretaker.
+                    <span class="quotecommas">”</span>
+                    </blockquote>
+                    <h3><b>- Monster Bio</b></h3>
+                    <div class="col-1">
+                        <div>
+                            <h3 class="audio-title-2">Meebkin <b class="ethereal-workshop-text">Ethereal Workshop</b></h3>
+                            <audio class="wide-audio" controls>
+                                <source src="audio/Meebkin-Ethereal-Workshop.mp3" type="audio/mpeg">
+                            </audio> 
+                        </div>
+                    </div>
+                </section>
+                <section class="B margin-center">
+                    <picture class="meebkin-container">
+                        <img src="images/Meebkin.png" alt="Meebkin" class="width-350">
+                        <hr>
+                        <h2>Element(s)</h2>
+                            <section>
+                                <img class="small-symbol-img" src="images/Ethereal-01-Plasma-Symbol.png" alt="Plasma">
+                                <img class="small-symbol-img" src="images/Ethereal-02-Shadow-Symbol.png" alt="Shadow">
+                                <img class="small-symbol-img" src="images/Ethereal-04-Crystal-Symbol.png" alt="Crystal">
+                            </section>
+                    </picture>
+                </section>
+                </div>
+            <br><br>
+            <div class="grid-12">
+                <section class="C margin-center">
+                    <picture class="blarret-container">
+                        <img class="invert width-270" src="images/Blarret.png" alt="Blarret">
+                        <hr>
+                        <h2>Element(s)</h2>
+                            <section>
+                                <img class="small-symbol-img" src="images/Ethereal-01-Plasma-Symbol.png" alt="Plasma">
+                                <img class="small-symbol-img" src="images/Ethereal-02-Shadow-Symbol.png" alt="Shadow">
+                                <img class="small-symbol-img" src="images/Ethereal-05-Poison-Symbol.png" alt="Poison">
+                            </section>
+                    </picture>
+                </section>
+                <section class="D margin-center">
+                    <h2>Blarret</h2>
+                    <blockquote class="monster"><span class="quotecommas">“</span>
+                    Right after it's synthesized, the Ethereal Blarret only has one functioning mouth: the top one attached to the rest of its face. Once it's a little older, the Monster's secondary and tertiary mouths learn to sing with preternatural speed… although a non-trivial amount of discipline and concentration is required to make sure they all sing in the right order. After a while though, the reflex becomes 'otama-tic.' Blarrets love getting their triple chins scratched by an Auglur's digital claws - although in the case of the two lower mouths, it's more like a neck scratch?
+                    <span class="quotecommas">”</span>
+                    </blockquote>
+                    <h3><b>- Monster Bio</b></h3>
+                    <div class="col-1">
+                        <div>
+                            <h3 class="audio-title-2">Blarret <b class="ethereal-workshop-text">Ethereal Workshop</b></h3>
+                            <audio class="wide-audio" controls>
+                                <source src="audio/Blarret-Ethereal-Workshop.mp3" type="audio/mpeg">
+                            </audio> 
+                        </div>
+                    </div>
+                </section>
+                </div>
+            <br><br>
+            <div class="grid-21">
+                <section class="A margin-center">
+                    <h2>Gaddzooks</h2>
+                    <blockquote class="monster"><span class="quotecommas">“</span>
+                    The instability present in all Triple-Element Ethereals is no better represented than in the Gaddzooks. Every snap of their jaws and tap of their feet threatens to shatter its very form, and yet this Monster is able to keep it together and perform. An outlier in the Monster World as far as double-headedness goes, both of the Gaddzook brainstems get along famously and are always totally in sync with one another (we suppose you'd have to be in order to attain that level of percussive prowess). This cheerfulness and amicability extends to friendships with its fellow Ethereals as well, particularly the closely-related Yooreek.
+                    <span class="quotecommas">”</span>
+                    </blockquote>
+                    <h3><b>- Monster Bio</b></h3>
+                    <div class="col-1">
+                        <div>
+                            <h3 class="audio-title-2">Gaddzooks <b class="ethereal-workshop-text">Ethereal Workshop</b></h3>
+                            <audio class="wide-audio" controls>
+                                <source src="audio/Gaddzooks-Ethereal-Workshop.mp3" type="audio/mpeg">
+                            </audio> 
+                        </div>
+                    </div>
+                </section>
+                <section class="B margin-center">
+                    <picture class="gaddzooks-container">
+                        <img src="images/Gaddzooks.png" alt="Gaddzooks" class="width-300">
+                        <hr>
+                        <h2>Element(s)</h2>
+                            <section>
+                                <img class="small-symbol-img" src="images/Ethereal-01-Plasma-Symbol.png" alt="Plasma">
+                                <img class="small-symbol-img" src="images/Ethereal-03-Mech-Symbol.png" alt="Mech">
+                                <img class="small-symbol-img" src="images/Ethereal-04-Crystal-Symbol.png" alt="Crystal">
+                            </section>
+                    </picture>
+                </section>
+                </div>
+            <br><br>
+            <div class="grid-12">
+                <section class="C margin-center">
+                    <picture class="auglur-container">
+                        <img class="invert width-300" src="images/Auglur.png" alt="Auglur">
+                        <hr>
+                        <h2>Element(s)</h2>
+                            <section>
+                                <img class="small-symbol-img" src="images/Ethereal-01-Plasma-Symbol.png" alt="Plasma">
+                                <img class="small-symbol-img" src="images/Ethereal-03-Mech-Symbol.png" alt="Mech">
+                                <img class="small-symbol-img" src="images/Ethereal-05-Poison-Symbol.png" alt="Poison">
+                            </section>
+                    </picture>
+                </section>
+                <section class="D margin-center">
+                    <h2>Auglur</h2>
+                    <blockquote class="monster"><span class="quotecommas">“</span>
+                    The Auglur leans heavily into its Mech-Element parentage, and blurs the line between the real and virtual worlds by manifesting a trio of hands with digital digits. You don't need augmented reality goggles to see them; the Auglur's power makes them visible to all. From there, it's a simple matter of gesturing and swiping in mid-air at 'sonic panels' that create soundscapes drawn from nostalgic dreams. Alright, maybe it's not actually so simple for you or I [sic] - but to the Auglur, it comes naturally… er, Ethereally.
+                    <span class="quotecommas">”</span>
+                    </blockquote>
+                    <h3><b>- Monster Bio</b></h3>
+                    <div class="col-1">
+                        <div>
+                            <h3 class="audio-title-2">Auglur <b class="ethereal-workshop-text">Ethereal Workshop</b></h3>
+                            <audio class="wide-audio" controls>
+                                <source src="audio/Auglur-Ethereal-Workshop.mp3" type="audio/mpeg">
+                            </audio> 
+                        </div>
+                    </div>
+                </section>
+                </div>
+            <br><br>
+            <div class="grid-21">
+                <section class="A margin-center">
+                    <h2>Flasque</h2>
+                    <blockquote class="monster"><span class="quotecommas">“</span>
+                    It's challenging to describe the Flasque as a 'living thing' by the conventional definition of the term. The Ethereal's body consists of little more than an assortment of beakers and chalices, which float and move together impossibly, defying all known scientific laws. If that wasn't already enough, the Monster purposefully collides these body parts together - isn't it fearful of breaking the glass? By a fluke of nature, the Flasque's green lifeblood that sloshes and splashes about inside its body parts actually fortifies them and makes them completely shatter-resistant.
+                    <span class="quotecommas">”</span>
+                    </blockquote>
+                    <h3><b>- Monster Bio</b></h3>
+                    <div class="col-1">
+                        <div>
+                            <h3 class="audio-title-2">Flasque <b class="ethereal-workshop-text">Ethereal Workshop</b></h3>
+                            <audio class="wide-audio" controls>
+                                <source src="audio/Flasque-Ethereal-Workshop.mp3" type="audio/mpeg">
+                            </audio> 
+                        </div>
+                    </div>
+                </section>
+                <section class="B margin-center">
+                    <picture class="flasque-container">
+                        <img src="images/Flasque.png" alt="Flasque" class="width-410">
+                        <hr>
+                        <h2>Element(s)</h2>
+                            <section>
+                                <img class="small-symbol-img" src="images/Ethereal-01-Plasma-Symbol.png" alt="Plasma">
+                                <img class="small-symbol-img" src="images/Ethereal-04-Crystal-Symbol.png" alt="Crystal">
+                                <img class="small-symbol-img" src="images/Ethereal-05-Poison-Symbol.png" alt="Poison">
+                            </section>
+                    </picture>
+                </section>
+                </div>
+            <br><br>
+            <div class="grid-12">
+                <section class="C margin-center">
+                    <picture class="nitebear-container">
+                        <img class="invert width-320" src="images/Nitebear.png" alt="Nitebear">
+                        <hr>
+                        <h2>Element(s)</h2>
+                            <section>
+                                <img class="small-symbol-img" src="images/Ethereal-02-Shadow-Symbol.png" alt="Shadow">
+                                <img class="small-symbol-img" src="images/Ethereal-03-Mech-Symbol.png" alt="Mech">
+                                <img class="small-symbol-img" src="images/Ethereal-04-Crystal-Symbol.png" alt="Crystal">
+                            </section>
+                    </picture>
+                </section>
+                <section class="D margin-center">
+                    <h2>Nitebear</h2>
+                    <blockquote class="monster"><span class="quotecommas">“</span>
+                    Hello, hello? Hello! Behind the laughter and mirth of the majority of the Workshop's inhabitants lurks the Nitebear. A mishmash of multiple ideas, the leading theory is that it's secretly powered by quirky animatronics (hence the cables sticking out of its head). To avoid going purple in the face (and so that its servos don't lock up), the Monster must routinely express itself via a string of groans and moans. It's important for the Nitebear to socialize, even though its melancholic disposition often dampens the party atmosphere. The Ethereal asserts that it's going to stop killing the mood with the others and isolate itself... but it always comes back.
+                    <span class="quotecommas">”</span>
+                    </blockquote>
+                    <h3><b>- Monster Bio</b></h3>
+                    <div class="col-1">
+                        <div>
+                            <h3 class="audio-title-2">Nitebear <b class="ethereal-workshop-text">Ethereal Workshop</b></h3>
+                            <audio class="wide-audio" controls>
+                                <source src="audio/Nitebear-Ethereal-Workshop.mp3" type="audio/mpeg">
+                            </audio> 
+                        </div>
+                    </div>
+                </section>
+                </div>
+            <br><br>
+            <div class="grid-21">
+                <section class="A margin-center">
+                    <h2>Piplash</h2>
+                    <blockquote class="monster"><span class="quotecommas">“</span>
+                    Wow! This Triple-Element Ethereal is… not what we were expecting. In a class of Monsters that includes some of the more unsightly species, the Piplash exists in stark and striking contrast. It's so cute and endearing! Even its headbanging, stereotypically associated with hardcore genres, is absolutely delightful. What precisely is going on here?! Is the Piplash harboring some secret, putting up a front, concealing a side we can't see? Could the Monster possibly be as wholesome as it outwardly seems? This is driving us crazy!!!
+                    <span class="quotecommas">”</span>
+                    </blockquote>
+                    <h3><b>- Monster Bio</b></h3>
+                    <div class="col-1">
+                        <div>
+                            <h3 class="audio-title-2">Piplash <b class="ethereal-workshop-text">Ethereal Workshop</b></h3>
+                            <audio class="wide-audio" controls>
+                                <source src="audio/Piplash-Ethereal-Workshop.mp3" type="audio/mpeg">
+                            </audio> 
+                        </div>
+                    </div>
+                </section>
+                <section class="B margin-center">
+                    <picture class="piplash-container">
+                        <img class="invert width-340" src="images/Piplash.png" alt="Piplash">
+                        <hr>
+                        <h2>Element(s)</h2>
+                            <section>
+                                <img class="small-symbol-img" src="images/Ethereal-02-Shadow-Symbol.png" alt="Shadow">
+                                <img class="small-symbol-img" src="images/Ethereal-03-Mech-Symbol.png" alt="Mech">
+                                <img class="small-symbol-img" src="images/Ethereal-05-Poison-Symbol.png" alt="Poison">
+                            </section>
+                    </picture>
+                </section>
+                </div>
+            <br><br>
+            <div class="grid-12">
+                <section class="C margin-center">
+                    <picture class="xrt-container">
+                        <img src="images/X'rt.png" alt="X'rt" class="width-290">
+                        <hr>
+                        <h2>Element(s)</h2>
+                            <section>
+                                <img class="small-symbol-img" src="images/Ethereal-02-Shadow-Symbol.png" alt="Shadow">
+                                <img class="small-symbol-img" src="images/Ethereal-04-Crystal-Symbol.png" alt="Crystal">
+                                <img class="small-symbol-img" src="images/Ethereal-05-Poison-Symbol.png" alt="Poison">
+                            </section>
+                    </picture>
+                </section>
+                <section class="D margin-center">
+                    <h2>X'rt</h2>
+                    <blockquote class="monster"><span class="quotecommas">“</span>
+                    Whenever Zarroë is struggling to articulate a thought, or the Colossal is having trouble remembering something, suspicion mounts that there's an X'rt about. Put bluntly (and literally), this is the Monster equivalent of a brain fart: its home is a gargantuan brain and it communicates by spewing gas from its... mouth? Gut? We're not sure how to classify it. The biggest surprise, especially because of the presence of the Poison Element, is that the X'rt's gaseous emissions are totally odorless. Instead, they buildup over time and incite confusion and fogginess in the thought processes of its neighbors - so make sure you're not planning on doing anything mentally taxing when an X'rt is nearby.
+                    <span class="quotecommas">”</span>
+                    </blockquote>
+                    <h3><b>- Monster Bio</b></h3>
+                    <div class="col-1">
+                        <div>
+                            <h3 class="audio-title-2">X'rt <b class="ethereal-workshop-text">Ethereal Workshop</b></h3>
+                            <audio class="wide-audio" controls>
+                                <source src="audio/X'rt-Ethereal-Workshop.mp3" type="audio/mpeg">
+                            </audio> 
+                        </div>
+                    </div>
+                </section>
+                </div>
+            <br><br>
+            <div class="grid-21">
+                <section class="A margin-center">
+                    <h2>Teeter-Tauter</h2>
+                    <blockquote class="monster"><span class="quotecommas">“</span>
+                    Teeter-Tauter is an unusually <span class="animate_glitchXY">unstable</span> pair, even when compared to its synthetic siblings who slink about the Workshop. Its chaotic Elemental power necessitated its split into two separate beings that together form one lovably lopsided Ethereal - made complete with some minor 'Mech-nical' enhancements! While the bipedal Teeter's acrobatic prowess is undeniable, its tireless tittering tends to teeter toward tedious in the eye of its more responsible half, Tauter.
+                    <span class="quotecommas">”</span>
+                    </blockquote>
+                    <h3><b>- Monster Bio</b></h3>
+                    <div class="col-1">
+                        <div>
+                            <h3 class="audio-title-2">Teeter-Tauter <b class="ethereal-workshop-text">Ethereal Workshop</b></h3>
+                            <audio class="wide-audio" controls>
+                                <source src="audio/Teeter-Tauter-Ethereal-Workshop.mp3" type="audio/mpeg">
+                            </audio> 
+                        </div>
+                    </div>
+                </section>
+                <section class="B margin-center">
+                    <picture class="teeter-tauter-container">
+                        <img src="images/Teeter-Tauter.png" alt="Teeter-Tauter" class="width-280">
+                        <hr>
+                        <h2>Element(s)</h2>
+                            <section>
+                                <img class="small-symbol-img" src="images/Ethereal-03-Mech-Symbol.png" alt="Mech">
+                                <img class="small-symbol-img" src="images/Ethereal-04-Crystal-Symbol.png" alt="Crystal">
+                                <img class="small-symbol-img" src="images/Ethereal-05-Poison-Symbol.png" alt="Poison">
+                            </section>
+                    </picture>
+                </section>
+                </div>
+                <hr class="default-hr-2">
+
+
+
+
+                <div id="quads" style="height: 1.2rem;"></div>
+                <h1><span class="ethereal-island-text-large">Quads</span></h1>
+                <div class="grid-12">
+                    <section class="C margin-center">
+                        <picture class="whaill-container">
+                            <img class="invert width-400" src="images/Whaill.png" alt="Whaill">
+                            <hr>
+                            <h2>Element(s)</h2>
+                                <section>
+                                    <img class="small-symbol-img" src="images/Ethereal-01-Plasma-Symbol.png" alt="Plasma">
+                                    <img class="small-symbol-img" src="images/Ethereal-02-Shadow-Symbol.png" alt="Shadow">
+                                    <img class="small-symbol-img" src="images/Ethereal-03-Mech-Symbol.png" alt="Mech">
+                                    <img class="small-symbol-img" src="images/Ethereal-04-Crystal-Symbol.png" alt="Crystal">
+                                </section>
+                        </picture>
+                    </section>
+                    <section class="D margin-center">
+                        <h2>Whaill</h2>
+                        <blockquote class="monster"><span class="quotecommas">“</span>
+                        Some Ethereals prefer to whisper, while others favor wailing. The Quad-Element Whaill is the latter, so-named for the ululations that gurgle forth from its many mouths. Although at first blush these sounds seem melodious, over time they can elicit feelings of dread and disorientation in the listener. That's because the sound waves the Whaill produces actually begin to tear apart the fabric of space time and threaten to expose reality to the Rift, the world between worlds. But how can the polystomatous Plasma Boss help it? When you have hands for mouths and mouths for hands, there's little else that you can do but wail.
+                        <span class="quotecommas">”</span>
+                        </blockquote>
+                        <h3><b>- Monster Bio</b></h3>
+                        <div class="col-1">
+                            <div>
+                                <h3 class="audio-title-2">Whaill <b class="ethereal-workshop-text">Ethereal Workshop</b></h3>
+                                <audio class="wide-audio" controls>
+                                    <source src="audio/Whaill-Ethereal-Workshop.mp3" type="audio/mpeg">
+                                </audio> 
+                            </div>
+                        </div>
+                    </section>
+                    </div>
+                <br><br>
+                <div class="grid-21">
+                    <section class="A margin-center">
+                        <h2>Vhenshun</h2>
+                        <blockquote class="monster"><span class="quotecommas">“</span>
+                        Behold… a workshop within the Workshop! Fittingly, the Mech Quad Vhenshun looks like the wooden workbench of Monster antiquity where items and decorations alike were crafted… if that workbench sprang to life and swapped crafting for clanging! Not only is this contraption itself a product of mechanical invention, it's an inventor in its own right! The Monster is constantly experimenting with the materials available to devise new gadgets and gizmos - not unlike the Celestial that shares its Elemental affiliation. Rumors swirl around that it's planning a hi-Mech heist to distract Zarroë and escape into the great beyond, but we're not sure the world is prepared for Vhenshun impact.
+                        <span class="quotecommas">”</span>
+                        </blockquote>
+                        <h3><b>- Monster Bio</b></h3>
+                        <div class="col-1">
+                            <div>
+                                <h3 class="audio-title-2">Vhenshun <b class="ethereal-workshop-text">Ethereal Workshop</b></h3>
+                                <audio class="wide-audio" controls>
+                                    <source src="audio/Vhenshun-Ethereal-Workshop.mp3" type="audio/mpeg">
+                                </audio> 
+                            </div>
+                        </div>
+                    </section>
+                    <section class="B margin-center">
+                        <picture class="vhenshun-container">
+                            <img class="invert width-410" src="images/Vhenshun.png" alt="Vhenshun">
+                            <hr>
+                            <h2>Element(s)</h2>
+                                <section>
+                                    <img class="small-symbol-img" src="images/Ethereal-01-Plasma-Symbol.png" alt="Plasma">
+                                    <img class="small-symbol-img" src="images/Ethereal-02-Shadow-Symbol.png" alt="Shadow">
+                                    <img class="small-symbol-img" src="images/Ethereal-03-Mech-Symbol.png" alt="Mech">
+                                    <img class="small-symbol-img" src="images/Ethereal-05-Poison-Symbol.png" alt="Poison">
+                                </section>
+                        </picture>
+                    </section>
+                    </div>
+                <br><br>
+                <div class="grid-12">
+                    <section class="C margin-center">
+                        <picture class="pentumbra-container">
+                            <img class="invert width-400" src="images/Pentumbra.png" alt="Pentumbra">
+                            <hr>
+                            <h2>Element(s)</h2>
+                                <section>
+                                    <img class="small-symbol-img" src="images/Ethereal-01-Plasma-Symbol.png" alt="Plasma">
+                                    <img class="small-symbol-img" src="images/Ethereal-02-Shadow-Symbol.png" alt="Shadow">
+                                    <img class="small-symbol-img" src="images/Ethereal-04-Crystal-Symbol.png" alt="Crystal">
+                                    <img class="small-symbol-img" src="images/Ethereal-05-Poison-Symbol.png" alt="Poison">
+                                </section>
+                        </picture>
+                    </section>
+                    <section class="D margin-center">
+                        <h2>Pentumbra</h2>
+                        <blockquote class="monster"><span class="quotecommas">“</span>
+                        Even though its official species name is recognized to be 'Pentumbra' (because of its five limbs and the shadow it casts), everyone just wants to call this Monster a 'Shady Long-Legs'. The Ethereal Quad's affinity for the Shadow Element causes an unusual sticky pink residue to form on its legs - something to do with the fact that they're so often bathed in darkness. Apparently this phenomenon has been known to happen at large scale, when the dark matter of the Rift between dimensions seeps out from interdimensional fractures. It could be a trick of light, but the gloom that dwells beneath a Pentumbra almost seems to take a life of its own... but because it's nothing more than a shadow of a shade, it tends to imitate other beings' sounds rather than create its own.
+                        <span class="quotecommas">”</span>
+                        </blockquote>
+                        <h3><b>- Monster Bio</b></h3>
+                        <div class="col-1">
+                            <div>
+                                <h3 class="audio-title-2">Pentumbra <b class="ethereal-workshop-text">Ethereal Workshop</b></h3>
+                                <audio class="wide-audio" controls>
+                                    <source src="audio/Pentumbra-Ethereal-Workshop.mp3" type="audio/mpeg">
+                                </audio> 
+                            </div>
+                        </div>
+                    </section>
+                    </div>
+                <br><br>
+                <div class="grid-21">
+                    <section class="A margin-center">
+                        <h2>Rhysmuth</h2>
+                        <blockquote class="monster"><span class="quotecommas">“</span>
+                        Rhysmuth's cubic configuration comes from its complex Crystalline composition. Each of its four Elements exerts incredible pressure against the others, compressing the very fiber of this Ethereal's being into compact blocks which vibrate with an atomic energy that can barely be contained. The most powerful of these blocks, the Rhubix Cube, is closely guarded within Rhysmuth's heart. A word to the wise: beware when excavating the Workshop's Mini-Mine, as this crafty Quad enjoys creeping among the minerals.
+                        <span class="quotecommas">”</span>
+                        </blockquote>
+                        <h3><b>- Monster Bio</b></h3>
+                        <div class="col-1">
+                            <div>
+                                <h3 class="audio-title-2">Rhysmuth <b class="ethereal-workshop-text">Ethereal Workshop</b></h3>
+                                <audio class="wide-audio" controls>
+                                    <source src="audio/Rhysmuth-Ethereal-Workshop.mp3" type="audio/mpeg">
+                                </audio> 
+                            </div>
+                        </div>
+                    </section>
+                    <section class="B margin-center">
+                        <picture class="rhysmuth-container">
+                            <img class="width-450" src="images/Rhysmuth.png" alt="Rhysmuth">
+                            <hr>
+                            <h2>Element(s)</h2>
+                                <section>
+                                    <img class="small-symbol-img" src="images/Ethereal-01-Plasma-Symbol.png" alt="Plasma">
+                                    <img class="small-symbol-img" src="images/Ethereal-03-Mech-Symbol.png" alt="Mech">
+                                    <img class="small-symbol-img" src="images/Ethereal-04-Crystal-Symbol.png" alt="Crystal">
+                                    <img class="small-symbol-img" src="images/Ethereal-05-Poison-Symbol.png" alt="Poison">
+                                </section>
+                        </picture>
+                    </section>
+                    </div>
+                <br><br>
+                <div class="grid-12">
+                    <section class="C margin-center">
+                        <picture class="oogiddy-container">
+                            <img class="invert width-430" src="images/Oogiddy.png" alt="Oogiddy">
+                            <hr>
+                            <h2>Element(s)</h2>
+                                <section>
+                                    <img class="small-symbol-img" src="images/Ethereal-02-Shadow-Symbol.png" alt="Shadow">
+                                    <img class="small-symbol-img" src="images/Ethereal-03-Mech-Symbol.png" alt="Mech">
+                                    <img class="small-symbol-img" src="images/Ethereal-04-Crystal-Symbol.png" alt="Crystal">
+                                    <img class="small-symbol-img" src="images/Ethereal-05-Poison-Symbol.png" alt="Poison">
+                                </section>
+                        </picture>
+                    </section>
+                    <section class="D margin-center">
+                        <h2>Oogiddy</h2>
+                        <blockquote class="monster"><span class="quotecommas">“</span>
+                        Look, we get it - Oogiddy doesn't exactly give everyone the warm fuzzies. But what if we told you that in the midst of its nauseating display, it is actually performing a crucial function to preserve the ecosystem of the Workshop? Oogiddy traps Poisonous gasses within it [sic] bulbous body, mixing them with its own uniquely fragrant blend of acidic juices to neutralize all toxicity. The goopy byproduct created through this process ain't pretty, but it acts as a highly effective fertilizer (or hair gel!). Oogiddy even bids its fellow Monsters to steer clear of noxious substances by aggressively pulsating its chromatophores in warning.
+                        <span class="quotecommas">”</span>
+                        </blockquote>
+                        <h3><b>- Monster Bio</b></h3>
+                        <div class="col-1">
+                            <div>
+                                <h3 class="audio-title-2">Oogiddy <b class="ethereal-workshop-text">Ethereal Workshop</b></h3>
+                                <audio class="wide-audio" controls>
+                                    <source src="audio/Oogiddy-Ethereal-Workshop.mp3" type="audio/mpeg">
+                                </audio> 
+                            </div>
+                        </div>
+                    </section>
+                    </div>
+        </header>
+
+        <div id="quint" style="height: 1rem;"></div>
+        <header class="center ethereal-workshop">
+            <img class="bemeebeth-title" src="images/BeMeebEth-Wordmark.png" alt="BeMeebEth">
+            <iframe class="gluggi" src="https://www.youtube.com/embed/O2yv9GnJsEM?si=LmLT5IAgrUGebhUp"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer;
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+            </iframe>
+            <blockquote><span class="quotecommas">“</span>
+                "It's alive!" Not since the creation of the <span class="electric-text">Wubbox</span> has Monsterkind witnessed such a <b>significant scientific achievement</b>. The gargantuan <span class="ethereal-workshop-text">BeMeebEth</span> represents the pinnacle of Zarroë's <i>mad tinkering</i> and <i>endless experimentation</i>. The <span class="ethereal-text">Ethereal</span> Quint towers over the other denizens of the Ethereal Workshop, inspiring awe and apprehension in equal measure. Visible in its <b><span class="animate_glitchXY">unstable</span> composition</b> are <span class="ethereal-workshop-text">all five Ethereal Elements</span>: Plasmic tentacles, Shadowy claws, Crystalline cartilage, pockmarked Poisonous spines, and the Mech-nical jaw that houses its mighty brain. From the moment it erupted from the <i>Synthesizer's upper bulb</i>, there was no question that this Monster was the <b>Top Boss of the Workshop</b>.
+                <span class="quotecommas">”</span>
+            </blockquote>
+            <div style="height: 5rem;"></div>
+            <h1>BeMeebEth</h1>
+            <div class="contain-be-meebeth">
+                <img src="images/BeMeebEth.png" class="bemeebeth-img-size">
+                <hr>
+                <h2 class="bemeebeth-element-text">Element(s)</h2>
+                <section>
+                    <img class="medium-symbol-img animate_plasmaUnstability" src="images/Ethereal-01-Plasma-Symbol.png" alt="Plasma">
+                    <img class="medium-symbol-img animate_shadowUnstability" src="images/Ethereal-02-Shadow-Symbol.png" alt="Shadow">
+                    <img class="medium-symbol-img animate_mechUnstability" src="images/Ethereal-03-Mech-Symbol.png" alt="Mech">
+                    <img class="medium-symbol-img animate_crystalUnstability" src="images/Ethereal-04-Crystal-Symbol.png" alt="Crystal">
+                    <img class="medium-symbol-img animate_poisonUnstability" src="images/Ethereal-05-Poison-Symbol.png" alt="Poison">
+                </section>
+            </div>
+            <div style="height: 5rem;"></div>
+            <blockquote>
+                <h1>BeMeebEth's Sounds</h1>
+                <div class="bemeebeth-audio">
+                    <audio class="bemeebeth-audio" controls>
+                        <source src="audio/Bemeebeth-Ethereal-Workshop.mp3" type="audio/mpeg">
+                    </audio>
+                </div> 
+            </blockquote> 
+        </header>
+        
+    </main>
+    <footer class="container col-3">
+        <nav>
+          <ul>
+            <li> <a href="#">Eveniet ducimus pariatur voluptate</a></li>
+            <li> <a href="#">Vitae animi, sed provident fuga</a></li>
+            <li> <a href="#">Lorem ipsum dolor sit amet consectetur</a></li>
+            <li> <a href="#">Provident sit aliquid a consequuntur</a></li>
+          </ul>
+        </nav>
+        <nav>
+          <ul>
+            <li><a href="#.pdf"> PDF Document</a></li>
+            <li><a href="#.doc">Word Document</a></li>
+            <li><a href="#.jpg">Image File</a></li>
+            <li><a href="#.mp3">Audio File</a></li>
+            <li><a href="#.mp4">Video File</a></li>
+          </ul>
+        </nav>
+        <dl>              <!--Description list -->
+          <dt>Name</dt>
+            <dd>Sindri Arnar Svavarsson</dd>
+          <dt>Email</dt>
+            <dd>Sindriarnar@gmail.com</dd>
+          <dt>Web-Design</dt>
+            <dd>VEFÞ2VHB5AU, Tölvubraut Tækniskólans</dd>
+        </dl>
+    </footer>
+    <p class="center">3 span, Spring 2025.</p>
+    <p class="center">&copy; 2025 SAS</p>
+</body>
+</html>
