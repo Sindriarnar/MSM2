@@ -1,0 +1,156 @@
+/*default green style*/
+
+a button,
+button,
+.button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	font-size: 1rem;
+	display: inline-block;
+	padding: 6px 12px;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+    background-color: rgba(80, 206, 118, 0.8);
+    color: rgb(93, 249, 100);
+	border: 0;
+	border-radius: 4px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+a button[disabled],
+button[disabled],
+.button[disabled],
+input[type="submit"][disabled],
+input[type="reset"][disabled],
+input[type="button"][disabled] {
+	cursor: default;
+	opacity: .5;
+
+	/* Set the [X] cursor while hovering a disabled link */
+	cursor: not-allowed;
+}
+
+.default-button:hover,
+.default-button:active {
+    color: #d6ffd3; 
+    background-color: rgba(40, 154, 5, 0.8);
+}
+
+input[type="radio"],
+input[type="checkbox"] {	
+	background-color: rgba(40, 154, 5, 0.8);
+	color: green;
+}
+
+
+
+
+
+/*Wubbox style*/
+
+
+.wubbox-button {
+	font-family: sans-serif;
+	font-size: 5rem;
+	display: inline-block;
+	padding: 6px 12px;
+	margin: 0rem 15rem;
+	margin-top: 5rem;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+    background: linear-gradient(to bottom, #4fa3c7, #c3bc56);
+    color: rgb(231, 231, 231);
+	-webkit-text-stroke: 0.1rem rgb(89, 218, 129);
+	border: 0;
+	border-radius: 1rem;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.wubbox-button:hover,
+.wubbox-button:active {
+    color: #fcfcfc; 
+    background: linear-gradient(to bottom, #00b3ff, #ffee00);
+}
+
+
+
+
+
+/*Ethereal style*/
+
+.ethereal-button {
+	font-family: sans-serif;
+	font-size: 5rem;
+	display: inline-block;
+	padding: 6px 12px;
+	margin: 0rem 15rem;
+	margin-top: 5rem;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+    background: -webkit-linear-gradient( -90deg,    #c9d251 5%, #689671 91%  );
+	color: black;
+	border: 0;
+	border-radius: 1rem;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+
+.ethereal-button:hover,
+.ethereal-button:active {
+    color: #2c2c2c; 
+    background: -webkit-linear-gradient( -90deg,    #eaf918 5%, #75ef8d 91%  );
+}
+
+
+
+
+
+fieldset {
+	margin-top: 1rem;
+	padding: 2rem;
+	border: 1px solid greenyellow;
+	border-radius: 4px;
+} 
+
+legend {
+	padding: auto .5rem;
+}
+
+textarea,
+select,
+input {
+	padding: 6px 12px;
+	margin-bottom: .5rem;
+    background-color: rgba(80, 206, 118, 0.5);
+    color: rgb(93, 249, 100);
+	border: 1px solid greenyellow;
+	border-radius: 4px;
+	box-shadow: none;
+	box-sizing: border-box;
+}
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"]
+input[type="number"] 
+input[type="date"]
+input[type="time"] {
+
+    width: 100%;
+}
+::-webkit-calendar-picker-indicator {
+	background-color: var(--nc-tc-y);
+	border-radius: 50%;
+}
+.login {
+	max-width: 30%;
+	margin: 0.5rem;
+}
